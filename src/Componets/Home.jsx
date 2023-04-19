@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { useNavigate } from 'react-router-dom'
-import BootstrapTable from "react-bootstrap-table-next";
 
 const Home = () => {
     let navigate = useNavigate()
